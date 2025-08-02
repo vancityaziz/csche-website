@@ -407,3 +407,50 @@ header {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(139, 0, 0, 0.15);
 }
+
+.pd-intro {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  color: #444;
+}
+
+.pd-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.pd-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #8B0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  min-width: 200px;
+}
+
+.pd-button:hover {
+  background-color: #600000;
+}
+
+.what-we-do-image {
+  padding: 2rem 2rem 4rem;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.what-we-do-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
